@@ -4,6 +4,22 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: "./src/index.js",
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
   devServer: {
     static: "./dist",
   },
@@ -17,7 +33,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "restaurant-page",
       filename: "index.html",
-      template: "src/template.html"
+      template: "src/assets/template.html",
     }),
   ],
 };
