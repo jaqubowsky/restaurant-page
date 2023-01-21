@@ -1,8 +1,12 @@
 export default function createFooter() {
-  const footerContainer = document.querySelector(".footer");
+  const wrapperContainer = document.querySelector(".wrapper");
+  
+  const footerContainer = document.createElement("footer");
+  footerContainer.classList.add("footer");
 
   const footerText = document.createElement("p");
   footerText.textContent = "Copyright © 2023 Jakub Nalewajk";
 
-  footerContainer.appendChild(footerText)
+  wrapperContainer.appendChild(footerContainer);
+  footerContainer.appendChild(footerText);
 }

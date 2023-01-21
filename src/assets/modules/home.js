@@ -1,5 +1,8 @@
 export default function createHomeContent() {
-  const mainContainer = document.querySelector(".main");
+  const wrapperContainer = document.querySelector(".wrapper");
+
+  const mainContainer = document.createElement("main");
+  mainContainer.classList.add("main");
 
   const mainTitle = document.createElement("h1");
   mainTitle.classList.add("main-title");
@@ -10,11 +13,12 @@ export default function createHomeContent() {
 
   const mainBtn = document.createElement("button");
   mainBtn.classList.add("btn");
-  mainBtn.textContent = "ZAMÓW TERAZ"
+  mainBtn.textContent = "ZAMÓW TERAZ";
 
-  mainContainer.appendChild(mainTitle)
-  mainContainer.appendChild(mainSubtitle)
-  mainContainer.appendChild(mainBtn)
+  wrapperContainer.appendChild(mainContainer);
+  mainContainer.appendChild(mainTitle);
+  mainContainer.appendChild(mainSubtitle);
+  mainContainer.appendChild(mainBtn);
 
-  mainBtn.addEventListener("click", () => console.log("menu"))
+  mainBtn.addEventListener("click", () => console.log("menu"));
 }
