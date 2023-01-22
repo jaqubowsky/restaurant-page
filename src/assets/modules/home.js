@@ -1,8 +1,8 @@
-export default function createHomeContent() {
-  const wrapperContainer = document.querySelector(".wrapper");
+import loadMenu from "./menu";
 
-  const mainContainer = document.createElement("main");
-  mainContainer.classList.add("main");
+function createHome() {
+  const homeElement = document.createElement("div");
+  homeElement.classList.add("home");
 
   const mainTitle = document.createElement("h1");
   mainTitle.classList.add("main-title");
@@ -15,10 +15,18 @@ export default function createHomeContent() {
   mainBtn.classList.add("btn");
   mainBtn.textContent = "ZAMÓW TERAZ";
 
-  wrapperContainer.appendChild(mainContainer);
-  mainContainer.appendChild(mainTitle);
-  mainContainer.appendChild(mainSubtitle);
-  mainContainer.appendChild(mainBtn);
+  homeElement.appendChild(mainTitle);
+  homeElement.appendChild(mainSubtitle);
+  homeElement.appendChild(mainBtn);
 
-  mainBtn.addEventListener("click", () => console.log("menu"));
+  mainBtn.addEventListener("click", () => loadMenu());
+
+  return homeElement;
+}
+
+export default function loadHome() {
+  const mainContainer = document.querySelector(".main");
+  mainContainer.innerHTML = "";
+
+  mainContainer.appendChild(createHome());
 }

@@ -15,9 +15,11 @@
 body,
 html {
   font-size: 22px;
-  height: 100%;
   text-align: center;
-  overflow: hidden;
+}
+
+p {
+  line-height: 1.5;
 }
 
 body {
@@ -26,24 +28,17 @@ body {
 
 /* MAIN LAYOUT */
 
-.container {
-  min-width: 100vw;
-  min-height: 100vh;
-  height: 100%;
+.wrapper {
   background: no-repeat url("images/bg-img.jpg");
   background-position: center;
   background-size: cover;
-}
-
-.wrapper {
   max-width: 600px;
-  height: 100%;
+  min-height: 100vh;
   display: grid;
-  grid-template: 120px auto 120px / 1fr;
+  grid-template: 80px auto 80px / 1fr;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  position: relative;
 }
 
 hr {
@@ -53,20 +48,17 @@ hr {
 /* HEADER */
 
 .header {
-  padding: 1em 0;
+  font-size: 1.2rem;
 }
-
-/* NAV BAR */
 
 .nav-bar ul {
   display: flex;
   justify-content: space-around;
 }
 
-.nav-bar{
+.nav-bar {
+  margin: 0 auto;
   max-width: 600px;
-  margin: 0 auto 1em auto;
-  margin-bottom: 1em;
 }
 
 .nav-link {
@@ -79,6 +71,12 @@ hr {
 /* MAIN */
 
 .main {
+  border-top: 2px solid goldenrod;
+  border-bottom: 2px solid goldenrod;
+}
+
+.main {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,8 +84,46 @@ hr {
   font-size: 1.5rem;
 }
 
-.main-title {
+.main-title,
+.menu-title,
+.menu-item-price {
   border-bottom: 2px solid goldenrod;
+}
+
+/* MENU */
+
+.menu {
+  background-color: whitesmoke;
+  color: #252525;
+  font-size: 1rem;
+  min-width: 100%;
+}
+
+.menu-item-description {
+  font-size: 0.75rem;
+}
+
+.menu-items,
+.menu-title {
+  margin: 0.5em auto;
+  width: 500px;
+}
+
+.menu-item {
+  padding: 1em;
+}
+
+.menu-item,
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item-price,
+.menu-title {
+  width: 200px;
 }
 
 /* BTN */
@@ -106,16 +142,22 @@ hr {
 
 .footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  min-height: 50px;
+  width: 100%;
+  gap: 10px;
+  font-size: 20px;
 }
 
 /* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+  .header,
+  .footer {
+    font-size: 0.8rem;
+  }
+}
 
 @media (min-width: 600px) {
   .wrapper {
