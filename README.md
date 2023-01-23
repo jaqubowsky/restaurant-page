@@ -56,7 +56,7 @@
 
 ### Built With
 
-* [JavaScript][JavaScript]
+* [![JavaScript][JavaScript]]
 * [HTML][HTML]
 * [CSS3][CSS3]
 * [WebPack][Webpack]
