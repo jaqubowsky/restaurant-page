@@ -16,19 +16,33 @@ function createNavBar() {
   navBar.classList.add("nav-bar");
 
   const listElement = document.createElement("ul");
-  const linkTitles = ["HOME", "MENU", "ABOUT"];
+  const buttonTitles = ["HOME", "MENU", "ABOUT"];
 
-  for (let i = 0; i < linkTitles.length; i++) {
-    listElement.innerHTML += ` <a class="nav-link"><li>${linkTitles[i]}</li></a> `;
+  for (let i = 0; i < buttonTitles.length; i++) {
+    listElement.innerHTML += ` <button class="nav-btn btn" data-id="${i}">${buttonTitles[i]}</button> `;
   }
+
   listElement.addEventListener("click", (e) => {
+    if (!e.target.classList.contains("nav-btn")) return;
+    if (e.target.classList.contains("active")) return;
+
     if (e.target.innerHTML === "HOME") loadHome();
     if (e.target.innerHTML === "MENU") loadMenu();
     if (e.target.innerHTML === "ABOUT") loadContact();
+    addActiveClass(e.target);
   });
 
   navBar.appendChild(listElement);
   return navBar;
+}
+
+export function addActiveClass(target) {
+  const btns = document.querySelectorAll(".nav-btn");
+
+  btns.forEach((btn) => {
+    btn.classList.remove("active");
+    if (btn.dataset.id === target.dataset.id) btn.classList.add("active");
+  });
 }
 
 function createMain() {
@@ -58,4 +72,5 @@ export default function initializeWebsite() {
   wrapperContainer.appendChild(createFooter());
 
   loadHome();
+  addActiveClass(document.querySelector("[data-id='0']"));
 }
