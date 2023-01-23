@@ -17,6 +17,8 @@
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Report Bug</a>
     ·
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/ginnerzapata/restaurant">Design</a>
   </p>
 </div>
 
