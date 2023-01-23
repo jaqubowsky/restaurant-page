@@ -54,7 +54,7 @@
 ### Built With
 
 * ![JavaScript][JavaScript]
-* ![HTML][HTML]
+* ![HTML5][HTML5]
 * ![CSS3][CSS3]
 * ![WebPack][Webpack]
 * ![NPM][NPM]
