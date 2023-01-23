@@ -126,6 +126,19 @@ hr {
   width: 200px;
 }
 
+/* CONTACT */
+
+.contact-number,
+.contact-location-text {
+  font-size: 1rem;
+}
+
+.contact-img {
+  margin-top: 0.5em;
+  width: 100%;
+  height: auto;
+}
+
 /* BTN */
 .btn {
   background: goldenrod;
@@ -155,6 +168,11 @@ hr {
 @media (max-width: 600px) {
   .header,
   .footer {
+    font-size: 0.8rem;
+  }
+
+  .contact-number,
+  .contact-location-text {
     font-size: 0.8rem;
   }
 }

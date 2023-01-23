@@ -1,4 +1,4 @@
 import initializeWebsite from "./assets/modules/main-page";
-import "./assets/style.css"
+import "./assets/style.css";
 
 initializeWebsite();

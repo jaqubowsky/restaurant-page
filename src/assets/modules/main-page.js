@@ -1,5 +1,6 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 function createHeader() {
   const headerContainer = document.createElement("header");
@@ -23,7 +24,7 @@ function createNavBar() {
   listElement.addEventListener("click", (e) => {
     if (e.target.innerHTML === "HOME") loadHome();
     if (e.target.innerHTML === "MENU") loadMenu();
-    if (e.target.innerHTML === "ABOUT") console.log("about us");
+    if (e.target.innerHTML === "ABOUT") loadContact();
   });
 
   navBar.appendChild(listElement);
