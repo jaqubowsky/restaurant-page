@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jaqubowsky/restaurant-page">
-    <img src="src/assets/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/images/logo.webp" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Restaurant Page</h3>
@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/jaqubowsky/restaurant-page)
+[![Restaurant Project Screenshot][product-screenshot]](https://github.com/jaqubowsky/restaurant-page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,4 +98,4 @@ Project Link: (https://github.com/jaqubowsky/restaurant-page)
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[product-screenshot]: src/assets/images/screenshot.png
+[product-screenshot]: src/assets/images/screenshot.jpg
