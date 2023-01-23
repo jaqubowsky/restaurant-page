@@ -32,8 +32,6 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-    <li>
       <a href="#prerequisites">Prerequisites</a>
     </li>
     <li>
