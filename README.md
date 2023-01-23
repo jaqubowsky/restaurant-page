@@ -9,7 +9,7 @@
 <h3 align="center">Restaurant Page</h3>
 
   <p align="center">
-    project_description
+    Simple restaurant page project
     <br />
     <br />
     <a href="https://github.com/jaqubowsky/restaurant-page">View Demo</a>
