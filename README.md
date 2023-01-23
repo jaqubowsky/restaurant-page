@@ -53,11 +53,11 @@
 
 ### Built With
 
-* [![JavaScript][JavaScript]]
-* [HTML][HTML]
-* [CSS3][CSS3]
-* [WebPack][Webpack]
-* [NPM][NPM]
+* ![JavaScript][JavaScript]
+* ![HTML][HTML]
+* ![CSS3][CSS3]
+* ![WebPack][Webpack]
+* ![NPM][NPM]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +87,7 @@
 
 Jakub Nalewajk - [@LinkedIn](https://www.linkedin.com/in/jakub-nalewajk/) - jakub.nalewajk04@gmail.com
 
-Project Link: [(https://github.com/jaqubowsky/restaurant-page)]
+Project Link: (https://github.com/jaqubowsky/restaurant-page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
