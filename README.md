@@ -12,11 +12,13 @@
     Simple restaurant page project
     <br />
     <br />
-    <a href="https://github.com/jaqubowsky/restaurant-page">View Demo</a>
+    <a href="https://jaqubowsky.github.io/restaurant-page/">View Demo</a>
     ·
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Report Bug</a>
     ·
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/ginnerzapata/restaurant">Design</a>
   </p>
 </div>
 
@@ -45,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Restaurant Project Screenshot][product-screenshot]](https://github.com/jaqubowsky/restaurant-page)
+[![Restaurant Project Screenshot][product-screenshot]](https://jaqubowsky.github.io/restaurant-page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
