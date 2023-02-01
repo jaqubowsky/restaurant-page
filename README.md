@@ -3,13 +3,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/jaqubowsky/restaurant-page">
-    <img src="src/assets/images/logo.webp" alt="Logo" width="80" height="80">
+    <img src="src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Restaurant Page</h3>
+<h3 align="center">Todo List App</h3>
 
   <p align="center">
-    Simple restaurant page project
+    Simple todo list project
     <br />
     <br />
     <a href="https://jaqubowsky.github.io/restaurant-page/">View Demo</a>
@@ -17,8 +17,6 @@
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Report Bug</a>
     ·
     <a href="https://github.com/jaqubowsky/restaurant-page/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/ginnerzapata/restaurant">Design</a>
   </p>
 </div>
 
@@ -41,13 +39,16 @@
     </li>
     </li>
     <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="#left to do">Left to do</a>
+    </li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Restaurant Project Screenshot][product-screenshot]](https://jaqubowsky.github.io/restaurant-page/)
+[![Todo App Project Screenshot][product-screenshot]](https://jaqubowsky.github.io/todo-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +74,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jaqubowsky/restaurant-page.git
+   git clone https://github.com/jaqubowsky/todo-list.git
    ```
 2. Install NPM packages
    ```sh
@@ -82,12 +83,21 @@
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LEFT TO DO -->
+## Left to do
+
+· show details
+· edit todo details
+· edit project name
+· sort todos by date
+· firebase or local storage
+
 <!-- CONTACT -->
 ## Contact
 
 Jakub Nalewajk - [@LinkedIn](https://www.linkedin.com/in/jakub-nalewajk/) - jakub.nalewajk04@gmail.com
 
-Project Link: (https://github.com/jaqubowsky/restaurant-page)
+Project Link: (https://github.com/jaqubowsky/todo-list)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,4 +108,4 @@ Project Link: (https://github.com/jaqubowsky/restaurant-page)
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[product-screenshot]: src/assets/images/screenshot.jpg
+[product-screenshot]: src/images/mobile.jpg
